@@ -46,7 +46,7 @@ a {
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .btn {
-    padding: 0.6rem 0.9rem;
+    padding: 0.6rem 0.5rem;
     font-size: 0.9rem; } 
   }
 
@@ -54,7 +54,7 @@ a {
   .btn {
     display: block;
     width: 100%;
-    padding: 0.75rem;
+    padding: 0.5rem;
     font-size: 0.9rem; }
     .btn + .btn {
       margin-top: 1rem;
@@ -70,15 +70,15 @@ a {
 
 @media screen and (min-width: 64em) {
   .page-header {
-    padding: 5rem 6rem; } 
-  }
-
-@media screen and (min-width: 42em) and (max-width: 64em) {
-  .page-header {
-    padding: 3rem 4rem; } 
+    padding: 1rem 1rem; } 
   }
 
 @media screen and (max-width: 42em) {
+  .page-header {
+    padding: 2rem 1rem; } 
+  }
+
+@media screen and (min-width: 42em) and (max-width: 64em) {
   .page-header {
     padding: 2rem 1rem; } 
   }
@@ -295,7 +295,7 @@ a {
   .site-footer {
     font-size: 0.9rem; } 
   }
-  
+
 #user-blog{
   color: #fff;
 }
