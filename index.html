@@ -4,35 +4,17 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="keywords" content="林荣兴的个人主页" />
 <meta name="description" content="个人主页网站，主要提供个人信息，教育背景，工作经历，项目经验等信息。" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <link href="favicon.ico" mce_href="favicon.ico" rel="bookmark" type="image/x-icon" /> 
 <link href="favicon.ico" mce_href="favicon.ico" rel="icon" type="image/x-icon" /> 
 <link href="favicon.ico" mce_href="favicon.ico" rel="shortcut icon" type="image/x-icon" /> 
 <title>Rongx.github.io</title>
 <link href="stylesheets/css/bootstrap.css" rel='stylesheet' type='text/css' />
 <link href="stylesheets/css/style.css" rel="stylesheet" type="text/css" media="all" />
-<script src="stylesheets/js/jquery.min.js"></script>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<script type="application/x-javascript"> 
-	addEventListener("load", function() { 
-		setTimeout(hideURLbar, 0); 
-	}, false); 
-	function hideURLbar(){ 
-		window.scrollTo(0,1); 
-	} 
-</script>
 <!--webfont-->
 <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic' rel='stylesheet' type='text/css'>
-    <script type="text/javascript" src="stylesheets/js/move-top.js"></script>
-<script type="text/javascript" src="stylesheets/js/easing.js"></script>
-<script type="text/javascript">
-			jQuery(document).ready(function($) {
-				$(".scroll").click(function(event){		
-					event.preventDefault();
-					$('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
-				});
-			});
-		</script>
+<link href="stylesheets/css/popuo-box.css" rel="stylesheet" type="text/css" media="all" />
 </head>
 <body>
  <!-- header-section-starts -->
@@ -41,20 +23,14 @@
 			<div class="container">
 				<div class="top-menu">
 				    <span class="menu"> </span>
-					    <ul>
-							<li><a href="#ABOUT" class="scroll">ABOUT</a></li>
-							<li><a href="#WORK" class="scroll">WORK</a></li>
-							<li><a href="#BLOG" class="scroll">BLOG</a></li>
-							<li><a href="#CONTACT" class="scroll">CONTACT</a></li>
-							<div class="clearfix"></div>
-						</ul>
-				    </div>
-		 <!--script-nav-->
-		 <script>
-		 $("span.menu").click(function(){
-		 	$(".top-menu ul").slideToggle("slow" , function(){});
-		 });
-		 </script>
+				    <ul>
+						<li><a href="#ABOUT" class="scroll">ABOUT</a></li>
+						<li><a href="#WORK" class="scroll">WORK</a></li>
+						<li><a href="#BLOG" class="scroll">BLOG</a></li>
+						<li><a href="#CONTACT" class="scroll">CONTACT</a></li>
+						<div class="clearfix"></div>
+					</ul>
+				</div>
 				<div class="header-banner-info text-center">
 					<a href="#"><img src="stylesheets/images/logo.png" alt="" /></a>
 					<h3>HELLO</h3>
@@ -91,8 +67,8 @@
 				<div class="about-section-grids">
 					<div class="col-md-4 about-section-grid-1">
 						<h4>Who am I ?&nbsp;&nbsp;(<a href="http://job.oschina.net/resume/2006412" class="user-mention" target="_blank">&nbsp;下载个人简历&nbsp;</a>)</h4>
-						<p>你好，我叫林荣兴，英文名叫Rongx，出生于广东清远，今年24岁，单身狗一枚，职业是一名PHP初级开发工程师。我个人性格活泼开朗，脾气平和随性，喜欢广交朋友，兴趣广泛）看电影，看足球，看书，听歌，旅游还有玩游戏，同时还不会忘记撸代码）。</p>
-						<p>在开发技术上，熟练掌握Thinkphp框架和Template blitze框架的开发，熟练掌握SVN和Git版本控制工具，对mongodb，memcache，rediscache和nginx等技术有实际开发应用经验，熟悉Linux操作系和简单的LAMP结构的搭建，对nginx有一定的了解。</p>
+						<p>你好，我叫林荣兴，英文名叫Rongx，出生于广东清远，今年24岁，工学学士，本科毕业于广东石油化工学院，目前单身狗一枚，职业是一名PHP初级开发工程师。我个人性格活泼开朗，脾气平和随性，喜欢广交朋友，兴趣广泛）看电影，看足球，看书，听歌，旅游还有玩游戏，同时还不会忘记撸代码）。</p>
+						<p>在开发技术上，熟练掌握Thinkphp框架和Template blitze框架的开发，熟练掌握SVN和Git版本控制工具，对mongodb，memcache，rediscache和nginx等技术有实际开发应用经验，熟悉Linux操作系和简单的LAMP架构的搭建，对nginx有一定的了解。</p>
 						<p>在项目经验上，有接近一年的线上实际开发经验，曾独立开发过一个完整的web项目（<a href="http://edu.jobui.com" class="user-mention" target="_blank">选大学(edu.jobui.com)</a>），有半年的微信公众平台开发经验，目前迭代开发和维护着3个微信公众号（职友集，HR助手，wholook），喜欢交流和学习新知识。</p>
 						
 						<ul class="social-icons">
@@ -213,12 +189,6 @@
 		                	<li><a href="#" class="">2</a></li>
 		                </ul>
 				  	</div>
-				  	<!-- script -->
-				  	<script src="stylesheets/js/jquery.wmuSlider.js"></script> 
-					<script>
-						$('.example1').wmuSlider();         
-					</script>
-					<!-- script -->	
 		     	</div>
 			    <div class="clearfix"></div>
 			  </div>
@@ -289,140 +259,63 @@
 				  	</div></a>
                 </div>
 			</div>	
-<div class="clearfix"></div>					
-				</div>
-		  <div class="clearfix"></div>
-		  
-		  <script type="text/javascript">
-		jQuery(document).ready(function($) {
-			$(".scroll").click(function(event){		
-				event.preventDefault();
-				$('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
-			});
-		});
-	</script>
-		  <!-- Script for gallery Here -->
-				<script type="text/javascript" src="stylesheets/js/jquery.mixitup.min.js"></script>
-					<script type="text/javascript">
-					$(function () {
-						
-						var filterList = {
-						
-							init: function () {
-							
-								// MixItUp plugin
-								// http://mixitup.io
-								$('#portfoliolist').mixitup({
-									targetSelector: '.portfolio',
-									filterSelector: '.filter',
-									effects: ['fade'],
-									easing: 'snap',
-									// call the hover effect
-									onMixEnd: filterList.hoverEffect()
-								});				
-							
-							},
-							
-							hoverEffect: function () {
-							
-								// Simple parallax effect
-								$('#portfoliolist .portfolio').hover(
-									function () {
-										$(this).find('.label').stop().animate({bottom: 0}, 200, 'easeOutQuad');
-										$(this).find('img').stop().animate({top: -30}, 500, 'easeOutQuad');				
-									},
-									function () {
-										$(this).find('.label').stop().animate({bottom: -40}, 200, 'easeInQuad');
-										$(this).find('img').stop().animate({top: 0}, 300, 'easeOutQuad');								
-									}		
-								);				
-							
-							}
-				
-						};
-						
-						// Run the show!
-						filterList.init();
-						
-						
-					});	
-					</script>
-			<!-- Gallery Script Ends -->
-			<!-- pop-up-box -->
-					  <script type="text/javascript" src="stylesheets/js/modernizr.custom.min.js"></script>    
-					<link href="stylesheets/css/popuo-box.css" rel="stylesheet" type="text/css" media="all" />
-					<script src="stylesheets/js/jquery.magnific-popup.js" type="text/javascript"></script>
-			<!-- //pop-up-box -->
+			<div class="clearfix"></div>					
+		</div>
+		<div class="clearfix"></div>
 			<div id="small-dialog" class="mfp-hide">
-						<div class="image-top">
-							<img src="stylesheets/images/pic1.jpg" class="img-responsive" alt="" />
-							<p>不知道写什么，随便写写吧，其实我想在这里做更多的东西，但是只是不知道做什么比较好？ </p>
-						</div>
+				<div class="image-top">
+					<img src="stylesheets/images/pic1.jpg" class="img-responsive" alt="" />
+					<p>不知道写什么，随便写写吧，其实我想在这里做更多的东西，但是只是不知道做什么比较好？ </p>
+				</div>
+				</div>
+				<div id="small-dialog1" class="mfp-hide">
+					<div class="image-top">
+						<img src="stylesheets/images/pic2.jpg" class="img-responsive" alt="" />
+						<p>不知道写什么，随便写写吧，其实我想在这里做更多的东西，但是只是不知道做什么比较好？</p>
 					</div>
-					<div id="small-dialog1" class="mfp-hide">
-						<div class="image-top">
-							<img src="stylesheets/images/pic2.jpg" class="img-responsive" alt="" />
-							<p>不知道写什么，随便写写吧，其实我想在这里做更多的东西，但是只是不知道做什么比较好？</p>
-						</div>
+				</div>
+				<div id="small-dialog2" class="mfp-hide">
+					<div class="image-top">
+						<img src="stylesheets/images/pic3.jpg" class="img-responsive" alt="" />
+						<p>不知道写什么，随便写写吧，其实我想在这里做更多的东西，但是只是不知道做什么比较好？</p>
 					</div>
-					<div id="small-dialog2" class="mfp-hide">
-						<div class="image-top">
-							<img src="stylesheets/images/pic3.jpg" class="img-responsive" alt="" />
-							<p>不知道写什么，随便写写吧，其实我想在这里做更多的东西，但是只是不知道做什么比较好？</p>
-						</div>
+				</div>
+				<div id="small-dialog3" class="mfp-hide">
+					<div class="image-top">
+						<img src="stylesheets/images/pic4.jpg" class="img-responsive" alt="" />
+						<p>不知道写什么，随便写写吧，其实我想在这里做更多的东西，但是只是不知道做什么比较好？</p>
 					</div>
-					<div id="small-dialog3" class="mfp-hide">
-						<div class="image-top">
-							<img src="stylesheets/images/pic4.jpg" class="img-responsive" alt="" />
-							<p>不知道写什么，随便写写吧，其实我想在这里做更多的东西，但是只是不知道做什么比较好？</p>
-						</div>
+				</div>
+				<div id="small-dialog4" class="mfp-hide">
+					<div class="image-top">
+						<img src="stylesheets/images/pic5.jpg" class="img-responsive" alt="" />
+						<p>不知道写什么，随便写写吧，其实我想在这里做更多的东西，但是只是不知道做什么比较好？ </p>
 					</div>
-					<div id="small-dialog4" class="mfp-hide">
-						<div class="image-top">
-							<img src="stylesheets/images/pic5.jpg" class="img-responsive" alt="" />
-							<p>不知道写什么，随便写写吧，其实我想在这里做更多的东西，但是只是不知道做什么比较好？ </p>
-						</div>
+				</div>
+				<div id="small-dialog5" class="mfp-hide">
+					<div class="image-top">
+						<img src="stylesheets/images/pic6.jpg" class="img-responsive" alt="" />
+						<p>不知道写什么，随便写写吧，其实我想在这里做更多的东西，但是只是不知道做什么比较好？ </p>
 					</div>
-					<div id="small-dialog5" class="mfp-hide">
-						<div class="image-top">
-							<img src="stylesheets/images/pic6.jpg" class="img-responsive" alt="" />
-							<p>不知道写什么，随便写写吧，其实我想在这里做更多的东西，但是只是不知道做什么比较好？ </p>
-						</div>
+				</div>
+				<div id="small-dialog6" class="mfp-hide">
+					<div class="image-top">
+						<img src="stylesheets/images/pic7.jpg" class="img-responsive" alt="" />
+						<p>不知道写什么，随便写写吧，其实我想在这里做更多的东西，但是只是不知道做什么比较好？ </p>
 					</div>
-					<div id="small-dialog6" class="mfp-hide">
-						<div class="image-top">
-							<img src="stylesheets/images/pic7.jpg" class="img-responsive" alt="" />
-							<p>不知道写什么，随便写写吧，其实我想在这里做更多的东西，但是只是不知道做什么比较好？ </p>
-						</div>
+				</div>
+				<div id="small-dialog7" class="mfp-hide">
+					<div class="image-top">
+						<img src="stylesheets/images/pic8.jpg" class="img-responsive" alt="" />
+						<p>不知道写什么，随便写写吧，其实我想在这里做更多的东西，但是只是不知道做什么比较好？</p>
 					</div>
-					<div id="small-dialog7" class="mfp-hide">
-						<div class="image-top">
-							<img src="stylesheets/images/pic8.jpg" class="img-responsive" alt="" />
-							<p>不知道写什么，随便写写吧，其实我想在这里做更多的东西，但是只是不知道做什么比较好？</p>
-						</div>
+				</div>
+				<div id="small-dialog8" class="mfp-hide">
+					<div class="image-top">
+						<img src="stylesheets/images/pic9.jpg" class="img-responsive" alt="" />
+						<p>不知道写什么，随便写写吧，其实我想在这里做更多的东西，但是只是不知道做什么比较好？</p>
 					</div>
-					<div id="small-dialog8" class="mfp-hide">
-						<div class="image-top">
-							<img src="stylesheets/images/pic9.jpg" class="img-responsive" alt="" />
-							<p>不知道写什么，随便写写吧，其实我想在这里做更多的东西，但是只是不知道做什么比较好？</p>
-						</div>
-					</div>
-			<script>
-						$(document).ready(function() {
-						$('.popup-with-zoom-anim').magnificPopup({
-							type: 'inline',
-							fixedContentPos: false,
-							fixedBgPos: true,
-							overflowY: 'auto',
-							closeBtnInside: true,
-							preloader: false,
-							midClick: true,
-							removalDelay: 300,
-							mainClass: 'my-mfp-zoom-in'
-						});
-																						
-						});
-			</script>
+				</div>
 		</div>
 	  </div>
 	</div>
@@ -439,7 +332,7 @@
 				<div class="col-md-9 blog-section-left-grid">
 					<div class="blog-section-banner">
 						<img src="stylesheets/images/blog.jpg" class="img-responsive" alt="" />
-						<h3>人生感言（持续更新）</h3>
+						<h3>人生感言（持续更新）-2016-02-26</h3>
 						<span>2016-02-27</span>
 						<p>人生真的是一场很长的电影，没有彩排，一旦走错就没有回头的机会了.也许真因为没有回头，所以每每走到人生分叉路的时候就凸显的需要勇气。但是我害怕，我害怕自己没有勇气，不够坚强的做决定。但是现实的残酷的，在这一年内我做出了两个人生中重要的决定。</p>
 						<p>也许她不是你生命中的另一半，但是她一定是人生中难以遗忘的一个人。人生没有多少个七年，七年的感情已经不是爱情所能包含的了，这已经渗透到亲情里面了，情如亲人的感觉就是最近几年的感觉。但是毕竟在各方面的矛盾越显得不可调解，我们相互之间都在努力忍受对方，但是有的时候感情真的不能勉强，该放手的时候就放手吧。做这个决定居然是我酒醒的时候，难道真的是对这份感情醉生梦死，流连忘返吗？</p>
@@ -540,39 +433,8 @@
 						<a href="https://www.instagram.com/" target="_blank">@instagram</a>
 					</li>									    	  	       	   	  									    	  	       	   	    	
 				</ul>
-
-	  </div>
-	  </div>
-
-					<script type="text/javascript">
-			$(window).load(function() {
-				$("#flexiselDemo3").flexisel({
-					visibleItems: 1,
-					animationSpeed: 1000,
-					autoPlay: false,
-					autoPlaySpeed: 3000,    		
-					pauseOnHover: true,
-					enableResponsiveBreakpoints: true,
-			    	responsiveBreakpoints: { 
-			    		portrait: { 
-			    			changePoint:480,
-			    			visibleItems: 1
-			    		}, 
-			    		landscape: { 
-			    			changePoint:640,
-			    			visibleItems: 1
-			    		},
-			    		tablet: { 
-			    			changePoint:768,
-			    			visibleItems: 1
-			    		}
-			    	}
-			    });
-			    
-			});
-		</script>
-		<script type="text/javascript" src="stylesheets/js/jquery.flexisel.js"></script>	
-
+	  	</div>
+	 </div>
 	<!-- content-section-starts -->
 	<div class="contact-section text-center" id="CONTACT">
 		<div class="container">
@@ -604,22 +466,148 @@
 		</div>
 	</div>
 	<!-- footer-section-ends -->
-				  <script type="text/javascript">
-						$(document).ready(function() {
-							/*
-							var defaults = {
-					  			containerID: 'toTop', // fading element id
-								containerHoverID: 'toTopHover', // fading element hover id
-								scrollSpeed: 1200,
-								easingType: 'linear' 
-					 		};
-							*/
-							
-							$().UItoTop({ easingType: 'easeOutQuart' });
-							
-						});
-					</script>
-				<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
-
+	<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
 </body>
 </html>
+
+<!-- javascript start -->
+<script src="stylesheets/js/jquery.min.js"></script>
+<script type="application/x-javascript"> 
+	addEventListener("load", function() { 
+		setTimeout(hideURLbar, 0); 
+	}, false); 
+	function hideURLbar(){ 
+		window.scrollTo(0,1); 
+	} 
+</script>
+<script type="text/javascript" src="stylesheets/js/move-top.js"></script>
+<script type="text/javascript" src="stylesheets/js/easing.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
+		});
+	});
+</script>
+<script>
+ $("span.menu").click(function(){
+ 	$(".top-menu ul").slideToggle("slow" , function(){});
+ });
+</script>
+<script src="stylesheets/js/jquery.wmuSlider.js"></script> 
+<script>
+	$('.example1').wmuSlider();         
+</script>
+<script>
+			$(document).ready(function() {
+			$('.popup-with-zoom-anim').magnificPopup({
+				type: 'inline',
+				fixedContentPos: false,
+				fixedBgPos: true,
+				overflowY: 'auto',
+				closeBtnInside: true,
+				preloader: false,
+				midClick: true,
+				removalDelay: 300,
+				mainClass: 'my-mfp-zoom-in'
+			});
+																			
+			});
+</script>
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
+		});
+	});
+</script>
+<!-- Script for gallery Here -->
+<script type="text/javascript" src="stylesheets/js/jquery.mixitup.min.js"></script>
+<script type="text/javascript">
+$(function () {
+	
+	var filterList = {
+	
+		init: function () {
+		
+			// MixItUp plugin
+			// http://mixitup.io
+			$('#portfoliolist').mixitup({
+				targetSelector: '.portfolio',
+				filterSelector: '.filter',
+				effects: ['fade'],
+				easing: 'snap',
+				// call the hover effect
+				onMixEnd: filterList.hoverEffect()
+			});				
+		
+		},
+		hoverEffect: function () {
+			// Simple parallax effect
+			$('#portfoliolist .portfolio').hover(
+				function () {
+					$(this).find('.label').stop().animate({bottom: 0}, 200, 'easeOutQuad');
+					$(this).find('img').stop().animate({top: -30}, 500, 'easeOutQuad');				
+				},
+				function () {
+					$(this).find('.label').stop().animate({bottom: -40}, 200, 'easeInQuad');
+					$(this).find('img').stop().animate({top: 0}, 300, 'easeOutQuad');								
+				}		
+			);							
+		}
+	};	
+	// Run the show!
+	filterList.init();				
+});	
+</script>
+<!-- Gallery Script Ends -->
+<!-- pop-up-box -->
+<script type="text/javascript" src="stylesheets/js/modernizr.custom.min.js"></script>    
+<script src="stylesheets/js/jquery.magnific-popup.js" type="text/javascript"></script>
+<!-- //pop-up-box -->
+<script type="text/javascript">
+	$(window).load(function() {
+		$("#flexiselDemo3").flexisel({
+			visibleItems: 1,
+			animationSpeed: 1000,
+			autoPlay: false,
+			autoPlaySpeed: 3000,    		
+			pauseOnHover: true,
+			enableResponsiveBreakpoints: true,
+	    	responsiveBreakpoints: { 
+	    		portrait: { 
+	    			changePoint:480,
+	    			visibleItems: 1
+	    		}, 
+	    		landscape: { 
+	    			changePoint:640,
+	    			visibleItems: 1
+	    		},
+	    		tablet: { 
+	    			changePoint:768,
+	    			visibleItems: 1
+	    		}
+	    	}
+	    });
+	    
+	});
+</script>
+<script type="text/javascript" src="stylesheets/js/jquery.flexisel.js"></script>
+<script type="text/javascript">
+	$(document).ready(function() {
+		/*
+		var defaults = {
+  			containerID: 'toTop', // fading element id
+			containerHoverID: 'toTopHover', // fading element hover id
+			scrollSpeed: 1200,
+			easingType: 'linear' 
+ 		};
+		*/
+		
+		$().UItoTop({ easingType: 'easeOutQuart' });
+		
+	});
+</script>
+<!-- javascript end -->
